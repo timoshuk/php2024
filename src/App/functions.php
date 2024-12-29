@@ -9,3 +9,7 @@ function dd(mixed $value): void {
 
   die();
 }
+
+function e(mixed $value): string {
+  return htmlspecialchars((string) $value);
+}
